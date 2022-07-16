@@ -1,10 +1,12 @@
 {
-  "name": "maeTech-API",
+  "name": "maetech",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon server.js"
+    "start": "nodemon server.js",
+    "swagger-autogen": "node swagger.js"
+
   },
   "repository": {
     "type": "git",
